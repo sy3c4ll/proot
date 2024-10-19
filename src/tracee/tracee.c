@@ -33,15 +33,16 @@
 #include <errno.h>      /* E*, */
 #include <inttypes.h>   /* PRI*, */
 
-#include "tracee/tracee.h"
-#include "tracee/reg.h"
+#include "cli/note.h"
+#include "extension/extension.h"
 #include "path/binding.h"
-#include "syscall/sysnum.h"
-#include "tracee/event.h"
 #include "ptrace/ptrace.h"
 #include "ptrace/wait.h"
-#include "extension/extension.h"
-#include "cli/note.h"
+#include "syscall/sysnum.h"
+#include "tracee/event.h"
+#include "tracee/mem.h"
+#include "tracee/reg.h"
+#include "tracee/tracee.h"
 
 #include "compat.h"
 
